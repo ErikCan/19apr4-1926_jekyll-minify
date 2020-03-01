@@ -1,8 +1,8 @@
-# Minify Jekyll output
+# Minify [Jekyll](https://jekyllrb.com/) output
 
 * Remove whitespace and comments for HTML and JavaScript (optionally other HTML things)
 * Deliver extremely commented and formatted developer's code as easy-to-process one-liner for browsers
-* [Jekyll](https://jekyllrb.com/) / [Liquid](https://shopify.dev/docs/liquid/reference/basics) only, integrated in Jekyll's normal processing, no easy-to-forget post-Jekyll steps or complex tool chain necessary
+* Jekyll / [Liquid](https://shopify.dev/docs/liquid/reference/basics) only, integrated in Jekyll's normal processing, no easy-to-forget post-Jekyll steps or complex tool chain necessary
 
 *No minification by replacing (long) "speaking" names with arbitrary identifiers **=> try to use short IDs already while coding, declaring them in - e.g. [JSDoc](https://jsdoc.app/) - comments (don't be too confident to understand "undeclared" long speaking names after some months)**.*
 
