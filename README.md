@@ -2,7 +2,7 @@
 
 * Remove whitespace and comments for HTML and JavaScript (optionally other HTML things)
 * Deliver extremely commented and formatted developer's code as easy-to-process one-liner for browsers
-* Use [Jekyll](https://jekyllrb.com/) ([Liquid](https://shopify.dev/docs/liquid/reference/basics)) only, no complex tool chain necessary
+* [Jekyll](https://jekyllrb.com/) / [Liquid](https://shopify.dev/docs/liquid/reference/basics) only, integrated in Jekyll's normal processing, no easy-to-forget post-Jekyll steps or complex tool chain necessary
 
 *No minification by replacing (long) "speaking" names with arbitrary identifiers **=> try to use short IDs already while coding, declaring them in - e.g. [JSDoc](https://jsdoc.app/) - comments (don't be too confident to understand "undeclared" long speaking names after some months)**.*
 
@@ -17,7 +17,7 @@ The only functional change to JCH here is stripping off HTML *and* JavaScript co
 
 ## Usage
 
-[Download](https://github.com/ErikCan/jekyll-compress-html/releases/latest) `compress.html` to your `_layouts` directory and define it to be used by any "real" layout, e.g. as some "root" layout in a hierarchy or explicitely in every layout's front matter. Nothing else necessary, minification happens by / as normal Jekyll layout applying.
+[Download](https://github.com/ErikCan/jekyll-compress-html/releases/latest) `compress.html` to your `_layouts` directory and define it as layout for your existing layout(s), e.g. as some "root" layout in a hierarchy or explicitely in every layout's front matter. Nothing else necessary, minification happens by / as normal Jekyll layout applying.
 
 
 
